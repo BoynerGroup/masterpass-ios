@@ -1,0 +1,5 @@
+module masterpass_sdk {
+    umbrella header "MfsIOSLibrary.h"
+    export *
+    module * { export * }
+}
