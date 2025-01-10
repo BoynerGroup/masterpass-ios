@@ -10,11 +10,19 @@ let package = Package(
             targets: ["masterpass-sdk-target"]
         ),
     ],
+    dependencies: [
+        .package(url: "https://github.com/krzyzanowskim/OpenSSL-Package.git", exact: "3.3.2000"),
+        .package(url: "https://github.com/BoynerGroup/jsonmodel", branch: "master"),
+        .package(url: "https://github.com/AFNetworking/AFNetworking", exact: "4.0.1"),
+    ],
     targets: [
         .target(
             name: "masterpass-sdk-target",
             dependencies: [
-                .target(name: "masterpass-sdk")
+                .product(name: "OpenSSL", package: "OpenSSL-Package"),
+                .product(name: "AFNetworking", package: "AFNetworking"),
+                .product(name: "JSONModel", package: "jsonmodel"),
+                .target(name: "masterpass-sdk"),
             ],
             path: "masterpasswrapper",
             publicHeadersPath: "include"
