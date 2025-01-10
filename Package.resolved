@@ -1,5 +1,5 @@
 {
-  "originHash" : "26a5c9abe453a192ad6339f4db71c40652a31a33466b56586693bd3ae4a2d017",
+  "originHash" : "37b1da4d32f89f704ee75b3b72250b3a0a9c3b6a3a28c284492bb1eb682e5482",
   "pins" : [
     {
       "identity" : "afnetworking",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/BoynerGroup/jsonmodel",
       "state" : {
-        "branch" : "master",
-        "revision" : "a2e6ef176af5ede85424d5214c8852095695b093"
+        "revision" : "a2e6ef176af5ede85424d5214c8852095695b093",
+        "version" : "1.8.1"
       }
     },
     {

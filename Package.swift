@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/krzyzanowskim/OpenSSL-Package.git", exact: "3.3.2000"),
-        .package(url: "https://github.com/BoynerGroup/jsonmodel", branch: "master"),
+        .package(url: "https://github.com/BoynerGroup/jsonmodel", exact: "1.8.1"),
         .package(url: "https://github.com/AFNetworking/AFNetworking", exact: "4.0.1"),
     ],
     targets: [
