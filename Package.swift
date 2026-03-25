@@ -22,11 +22,11 @@ let package = Package(
                 .product(name: "OpenSSL", package: "OpenSSL-Package"),
                 .product(name: "AFNetworking", package: "AFNetworking"),
                 .product(name: "JSONModel", package: "jsonmodel"),
-                .target(name: "masterpass-sdk"),
+                .target(name: "masterpass_sdk_binary"),
             ],
             path: "masterpasswrapper",
             publicHeadersPath: "include"
         ),
-        .binaryTarget(name: "masterpass-sdk", path: "MfsIOSLibrary.xcframework")
+        .binaryTarget(name: "masterpass_sdk_binary", path: "MfsIOSLibrary.xcframework")
     ]
 )
