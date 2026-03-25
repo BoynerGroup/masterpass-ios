@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "masterpass-sdk",
-            targets: ["masterpass-sdk-target"]
+            targets: ["masterpass-sdk"]
         ),
     ],
     dependencies: [
@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "masterpass-sdk-target",
+            name: "masterpass-sdk",
             dependencies: [
                 .product(name: "OpenSSL", package: "OpenSSL-Package"),
                 .product(name: "AFNetworking", package: "AFNetworking"),
