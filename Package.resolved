@@ -1,13 +1,13 @@
 {
-  "originHash" : "37b1da4d32f89f704ee75b3b72250b3a0a9c3b6a3a28c284492bb1eb682e5482",
+  "originHash" : "4bf473823b6983b3630056f968aba0fa20c94d099ad64f04868004b45e350e15",
   "pins" : [
     {
       "identity" : "afnetworking",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AFNetworking/AFNetworking",
+      "location" : "https://github.com/BoynerGroup/AFNetworking.git",
       "state" : {
-        "revision" : "ffae2391ab0c29dc88eb0a58d2f5b2c2c27cadbf",
-        "version" : "4.0.1"
+        "revision" : "f09cda23199dec036cdbb19eaccbdbf4a9b7bb48",
+        "version" : "4.0.2"
       }
     },
     {
